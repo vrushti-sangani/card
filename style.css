@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    box-shadow: 10px 10px 5px rgb(87, 90, 91);
+}
+.card .img{
+    width:100%;
+    height: 30%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 70%;
+    text-align: center;
+}
+.plan{
+    width: 80%;
+    height: 10%;
+    background-color: #8EC5FC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 10px 10px 5px rgb(128, 150, 225);
+}
+.plan .leftplan{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px;
+}
+.plan .leftplan .logo{
+    transition: all 2s linear 0s;
+}
+.plan .leftplan .logo:hover{
+    rotate: 180deg;
+}
+.plan .rightplan a{ 
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    padding: 20px;
+}
+.plan .rightplan a:hover{
+    font-size: larger;
+    color: #082441;
+}
+.btn{
+    width: 80%;
+    height: 10%;
+    font-weight: bold;
+    background-color: #99bcdf;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: all 1s linear 0s;
+}
+.btn:hover{
+    width: 70%;
+    background-color: #082441;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px rgb(83, 185, 219);
+}
+.end a{
+    text-decoration: none;
+    color: rgb(58, 56, 56);
+    font-weight: bold;
+    font-size: large;
+}
+.end a:hover{
+    font-size: larger;
+    color: black;
+}
