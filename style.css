@@ -102,13 +102,14 @@
 @media screen and (max-width: 580px) {
     .card{
         width: 300px;
-        height: 500px;
+        height: 530px;
+        gap: 20px;
     }
     .info{
-        width: 80%;
+        width: 90%;
         text-align: center;
     }
     .plan .leftplan .text{
-        font-size: small;
+        font-size: smaller;
     }
 }
